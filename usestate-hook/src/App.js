@@ -2,10 +2,7 @@ import {useState} from 'react';
 import "./App.css";
 
 function App() {
-  const [color, setColor] = useState(()=>{
-    const initialState = '#2016A6';
-    return initialState
-  });
+  const [color, setColor] = useState('#2016A6');
   
   const changeColor = () => {
     setColor(randomColorGenerator)
